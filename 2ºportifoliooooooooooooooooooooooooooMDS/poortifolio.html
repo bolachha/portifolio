@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="csss.css">
+    <link href='https://fonts.googleapis.com/css?family=Rosario' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Rosario';font-size: 22px;
+}
+</style>
+<style>
+    .imagem-arredondada {
+      border-radius: 50%; /* Define o arredondamento */
+      width: 250px; /* Ajusta o tamanho da imagem */
+      height: auto; /* Mantém a proporção da imagem */
+      border: 2px solid #ccc; /* Adiciona uma borda */
+      height: auto;
+      float: left;
+      position: absolute; /* Permite o posicionamento específico */
+    top: 1600px; /* Define a posição a partir do topo */
+    left: 1000px; /* Define a posição a partir da esquerda */
+    width: 300px; /* Ajusta o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 2px solid #000; /* Adiciona uma borda para destaque */
+    }
+  </style>
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="geovanny_m.santos-removebg-preview.png" alt="Logo"/>
+            </div>
+            <ul>
+                <li><a href="#home" conclick="location.href='#home'">Home</a></li>
+                <li><a href="#sobre mim" conclick="location.href='#sobre mim'">sobre mim</a></li>
+                <li><a href="#trabalhos">Trabalhos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<img src="Cópia de Cópia de Cópia de Geovanny marinho.png" height="100%" width="100%" id="home">
+    <!-- Carrossel de Imagens -->
+    <section id="carrossel" class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="PAGINI ZONDA F.jpg" alt="Imagem 1">
+                <img src="Pagani Zonda R.jpg" alt="Imagem 2">
+                <img src="1999 BM CLK GTR Roadster.jpg" alt="Imagem 3">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">❮</button>
+            <button class="next" onclick="moveSlide(1)">❯</button>
+        </div>
+    </section>
+    <h1>Sobre Mim</h1>
+    <br>
+    <br>
+    <div>
+    <img src="avatar.jpg" alt="Exemplo de imagem" class="imagem-arredondada" id="sobre mim">
+    <h5 id="texto">
+        <br>
+        Meu nome é Geovanny Marinho e sou programador e designer digital. <br>
+        Estou me graduando na ETEC de Itanhaém, São Paulo, Brasil.
+        <br>
+         Tenho uma forte paixão por desenvolver sites e aprimorar sua estética, <br>além de ser um entusiasta de carros. 
+        Outro passatempo que aprecio é jogar jogos eletrônicos,<br> uma atividade Que me permite explorar mundos virtuais<br> e Desenvolver habilidades estratégicas.
+        Além disso, sou apaixonado por desenhar, <br>o que me proporciona uma Outlet criativa e a oportunidade de expressar<br> minhas ideias visualmente.
+         Ambas as atividades não apenas me divertem,<br> mas também estimulam minha imaginação e ampliam meu repertório artístico.
+        <br>
+        <br>
+    </h5>
+</div>
+    <!-- Trabalhos Feitos -->
+    <section id="trabalhos">
+        <h2>Meus Trabalhos</h2>
+        <div class="trabalhos-container">
+            <div class="trabalho">
+                <h3>Projeto 1</h3>
+                <a href="file:///D:/portifolio/DevFolio/portifolio.html" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="trabalho">
+                <h3>Projeto 2</h3>
+                <a href="file:///D:/portifolio/TRABALHOOO/portifolio.html" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="trabalho">
+                <h3>Projeto 3</h3>
+                <a href="file:///D:/login/cadastro.html" target="_blank">Ver Projeto</a>
+            </div>
+        </div>
+    </section>
+    <h1>Contato</h1>
+    <h3>TELEFONE:13 99100-5802
+        <br>
+        Av. José Batista Campos, 1431 - Cidade Anchieta, Itanhaém - SP, 11740-000
+    </h3>
+    <li><a href="#home" conclick="location.href='#home'"><img src="github.png" style="height: 40px;"></a></li></button>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 GS. Todos os direitos reservados.</h5>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="jjss.js"></script>
+</body>
+</html>
